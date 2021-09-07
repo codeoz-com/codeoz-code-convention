@@ -1,7 +1,7 @@
 
 ##### Table of Contents  
-[Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
-[Jeky](#Jekyll-themes)  
+- [Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
+- [Jeky](#Jekyll-themes)  
 
 ## Welcome to GitHub Pages
 
