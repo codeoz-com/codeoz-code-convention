@@ -1,4 +1,4 @@
----
+  ---
 ---
 
 @import "{{ site.theme }}";
@@ -13,19 +13,19 @@ body {
 }
 
 header {
-    padding: 5px 20px 4px 20px;
-    margin: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    min-height: 70px;
+  padding: 5px 20px 4px 20px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 70px;
 }
 
 .wrapper {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto 0;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto 0;
 }
 
 .wrapper-inner {
@@ -35,59 +35,69 @@ header {
 }
 
 nav {
-    position: fixed;
-    width: 230px;
-    top: 200px;
-    left: initial;
-    margin-left: -240px;
-    text-align: right;
+  position: fixed;
+  width: 230px;
+  top: 200px;
+  left: initial;
+  margin-left: -240px;
+  text-align: right;
 }
 
 section {
-    position: relative;
-    width: 100%;
-    padding: 15px 15px 15px 15px;
-    margin: 130px 0 0;
-    background: #fbfbfb;
-    border-radius: 6px;
-    border: 1px solid #cbcbcb;
+  position: relative;
+  width: 100%;
+  padding: 15px 15px 15px 15px;
+  margin: 130px 0 0;
+  background: #fbfbfb;
+  border-radius: 6px;
+  border: 1px solid #cbcbcb;
 }
+
+footer {
+  width: 230px;
+  position: fixed;
+  left: initial;
+  margin-left: -240px;
+  bottom: 20px;
+  text-align: right;
+  line-height: 16px;
+}
+
+
   
 #banner {
-    position: fixed;
-    z-index: 100;
-    width: 1200px;
-    height: 40px;
-    left: 0;
-    right: 0;
-    top: 82px;
-    padding: 2px 0 0;
-    margin: 0 auto;
-    background: #ccc;
-    border: 1px solid #aaa;
-    border-radius: 0px 2px 2px 0px;
+  position: fixed;
+  z-index: 100;
+  width: 1200px;
+  height: 40px;
+  left: 0;
+  right: 0;
+  top: 82px;
+  padding: 2px 0 0;
+  margin: 0 auto;
+  background: #ccc;
+  border: 1px solid #aaa;
+  border-radius: 0px 2px 2px 0px;
 }
 
 #banner .fork {
-    position: fixed;
-    left: 50%;
-    margin-left: -325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 10px;
-    font-size: 14px;
-    background-color: #red;
+  position: fixed;
+  left: 50%;
+  margin-left: -325px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  line-height: 10px;
+  font-size: 14px;
+  background-color: #red;
 }
 
 #banner .button {
-    border: 1px solid #CCC;
-    background: linear-gradient(#06a, #08a);
-    border-radius: 5px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 10px;
-    font-size: 14px;
-    font-weight: bold;
+  border: 1px solid #CCC;
+  background: linear-gradient(#06a, #08a);
+  border-radius: 5px;
+  padding: 10px 12px;
+  margin-top: 6px;
+  line-height: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
-
-
