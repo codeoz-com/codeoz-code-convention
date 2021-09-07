@@ -22,14 +22,20 @@ header {
     min-height: 70px;
 }
 
-.wrapper {
-  width: 900px;
-  margin: 0;
+.wrapper-inner {
+  width: 100%;
   position: relative;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 100px;
-  margin-left: auto;
+  margin-left: 200px;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 nav {
