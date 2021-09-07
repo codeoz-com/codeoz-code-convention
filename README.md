@@ -1,5 +1,6 @@
 
 ##### Table of Contents  
+- [Naming Conention](https://codeoz-com.github.io/codeoz-code-convention/namespaces/naming_convention)
 - [Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
 
 ## Welcome to GitHub Pages
