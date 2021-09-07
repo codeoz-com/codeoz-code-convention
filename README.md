@@ -1,3 +1,11 @@
+
+##### Table of Contents  
+[Markdown](#markdown)
+[Jeky](#Jekyll-themes)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/codeoz-com/codeoz-code-convention/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
@@ -12,7 +20,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+This is header 1
 ## Header 2
+This is header 2
 ### Header 3
 
 - Bulleted
