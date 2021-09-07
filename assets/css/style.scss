@@ -22,15 +22,34 @@ header {
     min-height: 70px;
 }
 
-section {
+.wrapper {
   width: 900px;
-  padding: 15px 15px 15px 15px;
-  margin: 20px 0;
-  margin-top: 130px;
+  margin: 0;
   position: relative;
-  background: #fbfbfb;
-  border-radius: 6px;
-  border: 1px solid #cbcbcb;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+nav {
+    width: 230px;
+    position: fixed;
+    top: 200px;
+    left: initial;
+    margin-left: -240px;
+    text-align: right;
+}
+
+section {
+    width: 900px;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 0;
+    margin-top: 130px;
+    position: relative;
+    background: #fbfbfb;
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
 }
   
 #banner {
