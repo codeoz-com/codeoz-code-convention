@@ -1,4 +1,11 @@
 # Namespaces
+
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Header 3](#header-3)
+
+## Introduction
 Namespaces prevent class names from becoming long and avoid clashes with other classes, which could result in names such as “MyProject_Controller_FileUpload”.
 
 By following the PHP Standards Recommendation PSR-4, the application can use Composer’s autoloading mechanism for loading files, thus decreasing complexity and adding frictionless interoperability among dependencies. 
@@ -30,3 +37,6 @@ To access the global classes outside of namespace, start with \ character
 ```php
 $a = new \stdClass; // Access global class, same as: $a = new stdClass;
 ```
+
+### Header 3
+
