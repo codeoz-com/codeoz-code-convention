@@ -13,7 +13,7 @@ TOC {:toc}
 
 Online version is [here](https://codeoz-com.github.io/codeoz-code-convention/).
 
-Hellollooouuu
+Hellollooouu
 
 For information on GitHub Pages, see [About GitHub Pages and Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
 
