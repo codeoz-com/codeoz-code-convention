@@ -3,6 +3,8 @@
 - [Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
 - [Jeky](#Jekyll-themes)  
 
+* TOC {:toc} 
+
 ## Welcome to GitHub Pages
 
 Online version is [here](https://codeoz-com.github.io/codeoz-code-convention/).
