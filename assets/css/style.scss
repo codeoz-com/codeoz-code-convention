@@ -1,9 +1,16 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
+.main-content {
+  h1 {
+   color: #ff0000;
+ }
+}
 
 .section {
     width: 900px !important;
     width: 900px;
 }
+
+
