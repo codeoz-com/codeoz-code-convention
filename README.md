@@ -13,7 +13,7 @@ TOC {:toc}
 
 Online version is [here](https://codeoz-com.github.io/codeoz-code-convention/).
 
-Hellollooouu
+Hello
 
 update...
 
