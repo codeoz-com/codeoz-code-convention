@@ -23,24 +23,20 @@ header {
 }
 
 .wrapper {
-    width: 1200px;
-    margin: 0;
     position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto;
+    width: 1200px;
+    margin: 0 auto 0;
 }
 
 .wrapper-inner {
-  width: 970px;
   position: relative;
+  width: 970px;
   margin-left: 200px;
 }
 
 nav {
-    width: 230px;
     position: fixed;
+    width: 230px;
     top: 200px;
     left: initial;
     margin-left: -240px;
@@ -48,28 +44,28 @@ nav {
 }
 
 section {
+    position: relative;
     width: 100%;
     padding: 15px 15px 15px 15px;
-    margin: 20px 0;
-    margin-top: 130px;
-    position: relative;
+    margin: 130px 0 0;
     background: #fbfbfb;
     border-radius: 6px;
     border: 1px solid #cbcbcb;
 }
   
 #banner {
+    position: fixed;
     z-index: 100;
+    width: 1200px;
+    height: 40px;
     left: 0;
     right: 0;
-    height: 40px;
-    margin-right: 0px;
-    position: fixed;
     top: 82px;
+    padding: 2px 0 0;
+    margin: 0 auto;
     background: #ccc;
     border: 1px solid #aaa;
     border-radius: 0px 2px 2px 0px;
-    padding-right: 10px;
 }
 
 #banner .fork {
