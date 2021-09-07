@@ -8,6 +8,16 @@
  }
 }
 
+header {
+    padding: 5px 20px 4px 20px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 70px;
+}
+
 section {
   width: 900px;
   padding: 30px 30px 50px 30px;
@@ -24,7 +34,7 @@ section {
     z-index: 100;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 40px;
     margin-right: 0px;
     position: fixed;
     top: 82px;
@@ -51,7 +61,7 @@ section {
     border-radius: 5px;
     padding: 10px 12px;
     margin-top: 6px;
-    line-height: 14px;
+    line-height: 10px;
     font-size: 14px;
     font-weight: bold;
 }
