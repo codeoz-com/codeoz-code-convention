@@ -1,9 +1,13 @@
 
+{:toc}
+
+TOC {:toc} 
+
+* TOC {:toc} 
+
 ##### Table of Contents  
 - [Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
 - [Jeky](#Jekyll-themes)  
-
-* TOC {:toc} 
 
 ## Welcome to GitHub Pages
 
