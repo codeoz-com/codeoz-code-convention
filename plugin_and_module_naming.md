@@ -1,14 +1,14 @@
 
-Type | Format
------------- | -------------
-**module_text_name**     | Codeoz Module Template A
-**module_name_lc**       | module_teplate_a
-**main class**           | Module_Template_A
-module_url_lc            | codeoz-module-template-a
-module_id (lowercase)    | tmpla
-module_folder            | m-tmpla      = 'm-' . $module_id
-module_short_name_lc     | coz_tmpla    = 'coz_' . $module_id
-singleton_class_name     | Codeoz_TMPLA = 'Codeoz_' . upper($module_id)
+```
+module_text_name :        Codeoz Module Template A
+module_name_lc :          module_teplate_a
+main class :              Module_Template_A
+module_url_lc :           codeoz-module-template-a
+module_id (lowercase) :   tmpla
+module_folder :           m-tmpla      = 'm-' . $module_id
+module_short_name_lc :    coz_tmpla    = 'coz_' . $module_id
+singleton_class_name :    Codeoz_TMPLA = 'Codeoz_' . upper($module_id)
+```
 
 ## Code Identifier prefix string, for variable, function, class names, shortcodes, options
 ```
