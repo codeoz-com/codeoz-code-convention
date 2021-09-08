@@ -71,8 +71,8 @@ nav ul a {
   color: #222;
 }
 
-.dark nav ul a {
-    color: #bbb;
+.dark nav ul a, .dark nav ul li.tag-h1 a, .dark nav ul li.tag-h2 a, .dark nav ul li.tag-h3 a, .dark nav ul li.tag-h4 a, .dark nav ul li.tag-h5 a {
+  color: #bbb;
 }
 
 section {
