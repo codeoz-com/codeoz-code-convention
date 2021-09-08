@@ -57,8 +57,8 @@ czfr_o_my_option
 ```
 
 
-### URL Parameter
-The following are used for HTML URL Parameter
+### POST Parameter
+The following are used for HTML POST Parameter
 ```
 coz_proc_name :    The 'POST Processor' name, is same as Classname and filename(wihout '.php') of file containing it
 coz_proc_ns   :    The 'POST Processor' namespace, WITHOUT trailing backslash. Or empty string if none.
