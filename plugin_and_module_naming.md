@@ -31,9 +31,13 @@ __lc = lowercase_
 
 
 ## HTML prefixes
-The following are used for HTML 
+### URL Parameter
+The following are used for HTML URL Parameter
 ```
-
+coz_proc_name :    The 'POST Processor' name, is same as Classname and filename(wihout '.php') of file containing it
+coz_proc_ns   :    The 'POST Processor' namespace, WITHOUT trailing backslash. Or empty string if none.
+coz_proc_path :    The 'POST Processor' path, relative to 'plugins' path, and WITHOUT trailing slash
+```
 
 
 ## Classes & Functions
