@@ -81,27 +81,29 @@ nav ul a {
 }
 
 .dark nav ul li.tag-h1 a {
+  color: #ddd;
+}
+.dark nav ul li.tag-h2 a {
   color: #ccc;
 }
-
-.dark nav ul a, .dark nav ul li.tag-h2 a, .dark nav ul li.tag-h3 a, .dark nav ul li.tag-h4 a, .dark nav ul li.tag-h5 a {
+.dark nav ul a, .dark nav ul li.tag-h3 a, .dark nav ul li.tag-h4 a, .dark nav ul li.tag-h5 a {
   color: #bbb;
 }
 
 nav ul li.tag-h2 {
-  padding-left: 3px;
+  padding-left: 5px;
 }
 
 nav ul li.tag-h3 {
-  padding-left: 6px;
+  padding-left: 10px;
 }
 
 nav ul li.tag-h4 {
-  padding-left: 9px;
+  padding-left: 15px;
 }
 
 nav ul li.tag-h4 {
-  padding-left: 12px;
+  padding-left: 15px;
 }
 
 section {
