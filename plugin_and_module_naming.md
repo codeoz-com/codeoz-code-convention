@@ -1,59 +1,67 @@
 
+## Module Defines
+Module defines for an example Module called "Template A"
 ```
-module_text_name :        Codeoz Module Template A
-module_name_lc :          module_teplate_a
-main class :              Module_Template_A
-module_url_lc :           codeoz-module-template-a
-module_id (lowercase) :   tmpla
-module_folder :           m-tmpla      = 'm-' . $module_id
-module_short_name_lc :    coz_tmpla    = 'coz_' . $module_id
-singleton_class_name :    Codeoz_TMPLA = 'Codeoz_' . upper($module_id)
+module_name    :  Template A
+module_url_lc  :  codeoz-module-template-a
 ```
 
-## Code Identifier prefix string, for variable, function, class names, shortcodes, options
 ```
-code_id_pre:  ztmpla  = 'z' . $module_id
+MODULE_ID (lowercase) :  tmpla
+MODULE_ID_UC          :  TMPLA
+module_folder         :  m-tmpla      = 'm-' . MODULE_ID
+module_short_name_lc  :  coz_tmpla    = 'coz_' . MODULE_ID
+
 ```
 
-## Codeoz Identifier prefix string
+## Code Identifier prefix
+Code Identifier prefix string, for **Variable**, **Function** & **Class** names, **Shortcodes**, **Options** prefix string
 ```
-coz_id_pre:  coz_tmpla_  = 'z' . $module_id . '_'
+code_id_pre:  ztmpla  = 'z' . MODULE_ID
 ```
 
-## Hooks & Wordpress Action and Filter tag prefix, used in add_action() and add_filter()
+## Hook, Action and Filter prefix
+Hooks & Wordpress Action and Filter tag prefix, used in add_action() and add_filter()
 ```
-hook_pre:             tmpla_z_  = $module_id . '_z_'
-phpdoc_package_name:  cozTMPLA  = 'coz' . upper($module_id)
+hook_pre:             tmpla_z_  = MODULE_ID . '_z_'
+phpdoc_package_name:  cozTMPLA  = 'coz' . upper(MODULE_ID)
 ```
 Where:
 __lc = lowercase_
 
 
-## Functions
-Functions declared in our Namespace do not have to be unique. So we can easily find them, use following prefixes
+## HTML prefixes
+The following are used for HTML 
+```
+
+
+
+## Classes & Functions
+Classes & Functions declared in our Namespace do not have to be unique.
+So we can easily find them, use following prefixes:
+**For functions:**
 ```
 zo_object() for functions that get objects
 zh_helper() for helper functions
 ```
-To rename module, search and replace following:
 
 
-## Filename
+## Rename Module & Plugin
+To rename module, search and rename following **files**:
 ```
 {module_name_lc}*  to  {module_name_lc_NEW}*
 {class_file_pre}*  to  {class_file_pre_NEW}*
 ```
 
-
-## File Content
+To rename module, search and rename file **contents**:
 ```
-coz_{abbrv_lowercase}_*     to  coz_{abbrv_lowercase_NEW}_*
-{module_name}               to  {module_name_NEW}
-{module_short_name_lc}      to  {module_short_name_lc_NEW}
-{module_short_name}         to  {module_short_name_NEW}
-{module_name_lc}            to {module_name_lc_NEW}
+coz_{MODULE_ID}_*        to  coz_{MODULE_ID}_*
+{module_name}            to  {module_name_NEW}
+{module_short_name_lc}   to  {module_short_name_lc_NEW}
+{module_short_name}      to  {module_short_name_NEW}
+{module_name_lc}         to {module_name_lc_NEW}
 ```
 Replace '-' with '_' in {module_name_lc}, THEN
 ```
-{module_name_lc}            to {module_name_lc_NEW}
+{module_name_lc}         to {module_name_lc_NEW}
 ```
