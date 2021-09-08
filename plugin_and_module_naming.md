@@ -31,6 +31,32 @@ __lc = lowercase_
 
 
 ## HTML prefixes
+
+### HTML Fields
+If HTML Fields have the following prefixes, they will be processed by the CodeOz "POST Processor".
+The 'XX' part is the "Data Type", and indicates where the field should be saved(Options, Properties...).
+The "Field ID" is used to build a unique field name used for options or other.
+
+**Field Types:**
+```
+czfcb_XX_{field ID}   : Check Box
+czfcbm_XX_{field ID}  : Check Box Multi
+czfr_XX_{field ID}    : Radio Button
+czft_XX_{field ID}    : Text input
+czfta_XX_{field ID}   : Text Area input
+```
+
+**Data Type:**
+```
+o  : Save to Options. Will prefix 'z{ID}_' to the 'Field ID' to get the option name to to save to.
+```
+
+For example, the following string is for a 'Radio Button', and it's value should be saved to the Option with name 'z{ID}_my_option', where ID = 'Module/Plugin ID'. So, if the field was called for a Module with ID 'ppas', the option name is: zppas_my_option
+```
+czfr_o_my_option
+```
+
+
 ### URL Parameter
 The following are used for HTML URL Parameter
 ```
