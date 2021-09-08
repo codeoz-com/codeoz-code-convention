@@ -32,6 +32,11 @@ strong {
   color: #def;
 }
 
+.dark section h1, .dark section h2, .dark section h3, .dark section h4, .dark section h5 {
+  border-bottom: 1px solid #777;
+  width: 100%;
+}
+
 .dark a {
   color: #ccc;
 }
