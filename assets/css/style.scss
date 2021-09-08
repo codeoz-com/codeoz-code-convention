@@ -1,3 +1,6 @@
+
+Dark
+
 ---
 ---
 
@@ -9,7 +12,23 @@
 }
 
 body {
-  background: #fafaff;
+  background: #ddd;
+  color: #222;
+}
+
+body.dark {
+  background: #222;
+  color: #eee;
+}
+
+strong {
+    font-weight: bold;
+    color: #222;
+}
+
+.dark strong {
+    font-weight: bold;
+    color: #fff;
 }
 
 header {
@@ -43,6 +62,14 @@ nav {
   text-align: right;
 }
 
+nav ul a {
+    color: #222;
+}
+
+.dark nav ul a {
+    color: #666;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -52,6 +79,13 @@ section {
   border-radius: 6px;
   border: 1px solid #cbcbcb;
 }
+
+.dark section {
+  background: #555;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0px 1px 2px #222, inset 0px 0px 2px 2px #222;
+}
+
 
 footer {
   width: 230px;
@@ -73,7 +107,7 @@ footer {
   top: 82px;
   padding: 2px 0 0;
   margin: 0 auto;
-  background: #ccc;
+  background: #666;
   border: 1px solid #aaa;
   border-radius: 0px 2px 2px 0px;
 }
