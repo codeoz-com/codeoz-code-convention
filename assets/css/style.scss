@@ -73,15 +73,35 @@ nav {
   top: 200px;
   left: initial;
   margin-left: -240px;
-  text-align: right;
+  text-align: left;
 }
 
 nav ul a {
   color: #222;
 }
 
-.dark nav ul a, .dark nav ul li.tag-h1 a, .dark nav ul li.tag-h2 a, .dark nav ul li.tag-h3 a, .dark nav ul li.tag-h4 a, .dark nav ul li.tag-h5 a {
+.dark nav ul li.tag-h1 a {
+  color: #ccc;
+}
+
+.dark nav ul a, .dark nav ul li.tag-h2 a, .dark nav ul li.tag-h3 a, .dark nav ul li.tag-h4 a, .dark nav ul li.tag-h5 a {
   color: #bbb;
+}
+
+nav ul li.tag-h2 {
+  padding-left: 3px;
+}
+
+nav ul li.tag-h3 {
+  padding-left: 6px;
+}
+
+nav ul li.tag-h4 {
+  padding-left: 9px;
+}
+
+nav ul li.tag-h4 {
+  padding-left: 12px;
 }
 
 section {
