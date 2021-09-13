@@ -1,6 +1,6 @@
 
-## Module Defines
-Module defines for an example Module called "Template A"
+## Defines
+Plugin/Module defines, following examples are for a Module called "Template A"
 ```
 module_name       :  Template A
 module_name_us    :  Template_A
