@@ -2,8 +2,10 @@
 ## Module Defines
 Module defines for an example Module called "Template A"
 ```
-module_name    :  Template A
-module_url_lc  :  codeoz-module-template-a
+module_name       :  Template A
+module_name_us    :  Template_A
+module_name_us_lc :  template_a
+module_url        :  codeoz-module-template-a
 ```
 
 ```
@@ -11,7 +13,7 @@ MODULE_ID (lowercase) :  tmpla
 MODULE_ID_UC          :  TMPLA
 module_folder         :  m-tmpla      = 'm-' . MODULE_ID
 module_short_name_lc  :  coz_tmpla    = 'coz_' . MODULE_ID
-
+cvs_version           :  TMPLA_0_dev
 ```
 
 ## Code Identifier prefix
@@ -79,19 +81,26 @@ zh_helper() for helper functions
 ## Rename Module & Plugin
 To rename module, search and rename following **files**:
 ```
-{module_name_lc}*  to  {module_name_lc_NEW}*
-{class_file_pre}*  to  {class_file_pre_NEW}*
+No files have to be renames
 ```
 
 To rename module, search and rename file **contents**:
 ```
-coz_{MODULE_ID}_*        to  coz_{MODULE_ID}_*
-{module_name}            to  {module_name_NEW}
-{module_short_name_lc}   to  {module_short_name_lc_NEW}
-{module_short_name}      to  {module_short_name_NEW}
-{module_name_lc}         to {module_name_lc_NEW}
-```
-Replace '-' with '_' in {module_name_lc}, THEN
-```
-{module_name_lc}         to {module_name_lc_NEW}
+namespace Codeoz\{cvs_version_OLD);     to    namespace Codeoz\{cvs_version};
+
+'z{MODULE_ID_old}_*                     to    'z{MODULE_ID}_*
+"z{MODULE_ID_old}_*                     to    "z{MODULE_ID}_*
+z{MODULE_ID_old}_*                      to    z{MODULE_ID}_*
+z{MODULE_ID_old}*                       to     z{MODULE_ID}*
+
+coz_{MODULE_ID_old}*                    to    coz_{MODULE_ID}*
+coz-{MODULE_ID_old}*                    to    coz-{MODULE_ID}*
+
+'{MODULE_ID_old}'                       to    '{MODULE_ID}'
+"{MODULE_ID_old}"                       to    "{MODULE_ID}"
+
+'{MODULE_ID_uc_OLD}'                    to    '{MODULE_ID_uc}'
+"{MODULE_ID_uc_OLD}"                    to    "{MODULE_ID_uc}"
+
+{cvs_version_OLD}                       to    {cvs_version}
 ```
