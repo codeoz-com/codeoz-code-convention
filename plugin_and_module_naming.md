@@ -1,7 +1,11 @@
 
 ## Defines
-Plugin/Module defines, following examples are for a Module called "Template A"
+Plugin/Module defines, following examples are for a **Plugin** called "Multistore and Inventory", and **Module** called "Template A"
 ```
+plugin_name       :  multistore-and-inventory
+plugin_desc       :  CodeOz Multistore and Inventory
+plugin_desc_short :  Multistore and Inventory
+
 module_name       :  Template A
 module_name_us    :  Template_A
 module_name_us_lc :  template_a
