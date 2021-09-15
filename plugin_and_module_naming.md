@@ -15,22 +15,27 @@ module_folder         :  m-tmpla      = 'm-' . MODULE_ID
 module_short_name_lc  :  coz_tmpla    = 'coz_' . MODULE_ID
 cvs_version           :  TMPLA_0_dev
 ```
+## Codeoz Prefix
+Codeoz Prefix, with trailing underscore, for **WP Domain**.  
+For example: coz_ppas_
+```
+id_pre: coz_tmpla  = 'coz_' . MODULE_ID . '_'
+```
 
 ## Code Identifier prefix
-Code Identifier prefix string, for **Variable**, **Function** & **Class** names, **Shortcodes**, **Options** prefix string
+Code Identifier prefix string, for **Variable**, **Function** & **Class** names, **Shortcodes**, **Options** prefix string.  
+For example: ztmpla
 ```
 code_id_pre:  ztmpla  = 'z' . MODULE_ID
 ```
 
 ## Hook, Action and Filter prefix
-Hooks & Wordpress Action and Filter tag prefix, used in add_action() and add_filter()
+**Hooks** & Wordpress **Action** and **Filter** tag prefix, used in add_action() and add_filter().  
+For example: tmpla_z_
 ```
 hook_pre:             tmpla_z_  = MODULE_ID . '_z_'
 phpdoc_package_name:  cozTMPLA  = 'coz' . upper(MODULE_ID)
 ```
-Where:
-__lc = lowercase_
-
 
 ## HTML prefixes
 
