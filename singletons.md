@@ -50,11 +50,13 @@ myobj = zo_Myclass();
 ```
 
 ### Factory File
+```php
 function zo_Myclass(?array $objArr = null): ?Myclass {
     static $do = true;  // Do first time
     if($do) {$do=false; require_once __DIR__ . '/Myclass.php'; Myclass::$inst = Myclass::instance($objArr); }
     return Myclass::$inst;
 }
+```
 
 
 ### The Class file
@@ -100,5 +102,5 @@ final class Myclass {
         }
         return self::$inst;   // Always return the instance
     }
-} 
+}
 ```
