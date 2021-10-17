@@ -100,5 +100,5 @@ final class Myclass {
         }
         return self::$inst;   // Always return the instance
     }
-}
+} 
 ```
