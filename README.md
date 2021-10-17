@@ -3,6 +3,7 @@
 - [Naming Convention](https://codeoz-com.github.io/codeoz-code-convention/naming_convention)
 - [Namespaces](https://codeoz-com.github.io/codeoz-code-convention/namespaces)
 - [Plugin & Module Naming](https://codeoz-com.github.io/codeoz-code-convention/plugin_and_module_naming)
+- [Singletons](https://codeoz-com.github.io/codeoz-code-convention/singletons)
 
 ## Welcome to GitHub Pages
 
