@@ -52,8 +52,15 @@ If HTML Fields have the following prefixes, they will be processed by the CodeOz
 ```
 czfcb_XX_{field ID}   : Check Box
 czfcbm_XX_{field ID}  : Check Box Multi
+czfclr_XX_{field ID}  : Color
+czfimg_XX_{field ID}  : Image
+czfnr_XX_{field ID}   : Number
+czfpw_XX_{field ID}   : Passord
 czfr_XX_{field ID}    : Radio Button
+czfs_XX_{field ID}    : Select
+czfsm_XX_{field ID}   : Select Multi
 czft_XX_{field ID}    : Text input
+czfts_XX_{field ID}   : Text sectet
 czfta_XX_{field ID}   : Text Area input
 ```
 
