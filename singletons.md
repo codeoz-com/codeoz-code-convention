@@ -2,7 +2,7 @@
 
 ## Normally Included
 
-The following template is for singletons for which the source code file will always be included in the project. To get the singleton instance, use following code(assuming source file has been included):
+The following <span style="text-decoration: underline;">template</span> is for singletons for which the source code file will always be included in the project. To get the singleton instance, use following code(assuming source file has been included):
 ```php
 myobj = Myclass:instance();
 ```
@@ -52,7 +52,7 @@ To **get the singleton instance**, use following code(assuming source file has b
 myobj = zo_Myclass();
 ```
 
-### Factory File
+**Factory File**
 We can put the "zo_Myclass()" function in a "factory" file, that will includes the source code and creates the object when required. This "factory" file will always be included, be small and compact, and contain "zo_Xxx" functions for including and creating multiple singletons.
 ```php
 function zo_Myclass(?array $objArr = null): ?Myclass {
