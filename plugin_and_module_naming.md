@@ -66,10 +66,11 @@ czfta_XX_{field ID}   : Text Area input
 
 **Data Type:**
 ```
-o  : Save to Options. Will prefix 'z{ID}_' to the 'Field ID' to get the option name to to save to.
+o  : Save to Options. Will prefix 'z{ID}_' to the 'Field ID' to get the option name to save to.
 ```
 
-For example, the following string is for a 'Radio Button', and it's value should be saved to the Option with name 'z{ID}_my_option', where ID = 'Module/Plugin ID'. So, if the field was called for a Module with ID 'ppas', the option name is: zppas_my_option
+For example, the following string is for a 'Radio Button', and it's value should be saved to the Option with name 'zppas_my_option'. The part of the name up until
+the first '_' character is the Plugin/Module 'Code ID Prefix'. For this example the field was called for a Plugin/Module with ID 'ppas'
 ```
 czfr_o_zppas_my_option
 ```
