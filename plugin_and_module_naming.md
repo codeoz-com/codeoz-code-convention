@@ -45,8 +45,8 @@ phpdoc_package_name:  cozTMPLA  = 'coz' . upper(MODULE_ID)
 
 ### HTML Fields
 If HTML Fields have the following prefixes, they will be processed by the CodeOz "POST Processor".
-- The 'XX' part is the "Data Type", and indicates where the field should be saved(Options, Properties...).
-- The "Field ID" is used to build a unique field name used for options or other.
+- The 'XX' part is the "**Data Type**", and indicates where the field should be saved(Options, Properties...).
+- The "**Field ID**" is used to build a unique field name used for options or other. Can also be an **array** by adding "\[element\]" to it.
 
 **Field Types:**
 ```
@@ -64,15 +64,25 @@ czfts_XX_{field ID}   : Text sectet
 czfta_XX_{field ID}   : Text Area input
 ```
 
-**Data Type:**
+**Data Type**
+Following Data Types are currently defined:
 ```
 o  : Save to Options. Will prefix 'z{ID}_' to the 'Field ID' to get the option name to save to.
 ```
+**Field Type**
+This is the name used to store the option. It can be a single value, or an array(example zmulinv_grid\[text_size\])
 
+**Examples 1**
 For example, the following string is for a 'Radio Button', and it's value should be saved to the Option with name 'zppas_my_option'. The part of the name up until
 the first '_' character is the Plugin/Module 'Code ID Prefix'. For this example the field was called for a Plugin/Module with ID 'ppas'
 ```
 czfr_o_zppas_my_option
+```
+**Examples 2**
+For example, the following string is for a 'Text Input', and it's value should be saved to the Option Array with name 'zppas_grid\[text_size\]'. The part of the name up until
+the first '_' character is the Plugin/Module 'Code ID Prefix'. For this example the field was called for a Plugin/Module with ID 'ppas'
+```
+czft_o_zppas_grid[text_size]
 ```
 
 
