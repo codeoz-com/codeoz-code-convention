@@ -62,7 +62,7 @@ czfsm_XX_{field ID}   : Select Multi
 czft_XX_{field ID}    : Text input
 czfts_XX_{field ID}   : Text sectet
 czfta_XX_{field ID}   : Text Area input
-czajx_XXX             : AJAX request
+codeoz-ajax           : AJAX request
 ```
 
 **Data Type**
@@ -75,7 +75,7 @@ o  : Save to Options. Will prefix 'z{ID}_' to the 'Field ID' to get the option n
 This is the name used to store the option. It can be a single value, or an array(example zmulinv_grid\[text_size\])
 
 **AJAX**
-AJAX field type is handled by Codoz AJAX code. It does NOT have a 'Data Type' or 'Field ID'
+Is there is a POST variable name 'codeoz-ajax', it is handled by AJAX callback
 
 **Examples 1**
 For example, the following string is for a 'Radio Button', and it's value should be saved to the Option with name 'zppas_my_option'. The part of the name up until
