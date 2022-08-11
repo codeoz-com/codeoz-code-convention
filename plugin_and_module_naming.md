@@ -1,4 +1,6 @@
 
+**IMPORTANT** - This documentation moved to 'docs' folder in 'codeoz/php-lib' repository
+
 ## Defines
 Plugin/Module defines, following examples are for a **Plugin** called "Multistore and Inventory", and **Module** called "Template A"
 ```
