@@ -13,17 +13,17 @@ module_url        :  codeoz-module-template-a
 ```
 
 ```
-MODULE_ID (lowercase) :  tmpla
-MODULE_ID_UC          :  TMPLA
-module_folder         :  m-tmpla      = 'm-' . MODULE_ID
-module_short_name_lc  :  coz_tmpla    = 'coz_' . MODULE_ID
+module_id (lowercase) :  tmpla
+module_id_uc          :  TMPLA
+module_folder         :  m-tmpla      = 'm-' . module_id
+module_short_name_lc  :  coz_tmpla    = 'coz_' . module_id
 cvs_version           :  TMPLA_0_dev
 ```
 ## Codeoz Prefix
 Codeoz Prefix, with trailing underscore, for **WP Domain**.  
 For example: coz_ppas_
 ```
-id_pre: coz_tmpla  = 'coz_' . MODULE_ID . '_'
+id_pre: coz_tmpla  = 'coz_' . module_id . '_'
 ```
 
 ## Code Identifier prefix
