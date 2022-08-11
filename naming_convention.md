@@ -1,3 +1,6 @@
+
+**IMPORTANT** - This documentation moved to root 'docs' folder in 'codeoz/php-lib'
+
 ## Functions, Variable and Action/Filter names
 Use lowercase letters in **variable, action/filter**, and **function names**(never camelCase). Separate words via underscores. Don’t abbreviate variable names unnecessarily; let the code be unambiguous and self-documenting.
 ```php
