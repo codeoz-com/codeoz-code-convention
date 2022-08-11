@@ -7,6 +7,8 @@
 
 ## Welcome to GitHub Pages
 
+***IMPORTANT*** - This documentation moved to root 'docs' folder in 'codeoz/php-lib'
+
 Online version is [here](https://codeoz-com.github.io/codeoz-code-convention/)..
 
 To enable **DARK Theme**, add ".dark" class to body of [default.html](https://github.com/codeoz-com/codeoz-code-convention/blob/main/_layouts/default.html)
