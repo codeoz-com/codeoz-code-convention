@@ -7,7 +7,7 @@
 
 ## Welcome to GitHub Pages
 
-**IMPORTANT** - This documentation moved to root 'docs' folder in 'codeoz/php-lib'
+**IMPORTANT** - This documentation moved to 'docs' folder in 'codeoz/php-lib' repository
 
 Online version is [here](https://codeoz-com.github.io/codeoz-code-convention/)..
 
